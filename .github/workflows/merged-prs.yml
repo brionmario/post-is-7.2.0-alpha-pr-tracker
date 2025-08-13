@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+    inputs:
+      since:
+        description: "ISO 8601 datetime to list merged PRs since (e.g. 2025-08-13T00:00:00Z). Leave blank to use Aug 13, 2025 00:00 UTC."
+        required: false
+        default: '2025-08-13T00:00:00Z'
 
 jobs:
   list-merged-prs:
@@ -37,7 +42,11 @@ jobs:
             "wso2-extensions/identity-event-publishers"
           )
 
-          SINCE=$(date -u -d "1 day ago" +"%Y-%m-%dT%H:%M:%SZ")
+          if [ -n "${{ github.event.inputs.since }}" ]; then
+            SINCE="${{ github.event.inputs.since }}"
+          else
+            SINCE="2025-08-13T00:00:00Z"
+          fi
 
           echo "# Merged PRs since $SINCE" > merged_prs.md
           for repo in "${REPOS[@]}"; do
