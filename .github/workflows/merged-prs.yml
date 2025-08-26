@@ -54,10 +54,18 @@ jobs:
             
             # Get PRs merged to master/main branch
             echo "### Master/Main Branch" >> README.md
+            # Query master branch
             gh pr list \
               --repo "$repo" \
               --state merged \
-              --search "merged:>=$SINCE base:master OR base:main" \
+              --search "merged:>=$SINCE base:master" \
+              --json number,title,author,mergedAt,url \
+              --jq '.[] | "- [#\(.number)](\(.url)) \(.title) — @\(.author.login) (\(.mergedAt))"' >> README.md
+            # Query main branch
+            gh pr list \
+              --repo "$repo" \
+              --state merged \
+              --search "merged:>=$SINCE base:main" \
               --json number,title,author,mergedAt,url \
               --jq '.[] | "- [#\(.number)](\(.url)) \(.title) — @\(.author.login) (\(.mergedAt))"' >> README.md
             echo "" >> README.md
