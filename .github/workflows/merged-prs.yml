@@ -51,10 +51,23 @@ jobs:
           echo "# Merged PRs since $SINCE" > README.md
           for repo in "${REPOS[@]}"; do
             echo "## $repo" >> README.md
+            
+            # Get PRs merged to master/main branch
+            echo "### Master/Main Branch" >> README.md
             gh pr list \
               --repo "$repo" \
               --state merged \
-              --search "merged:>=$SINCE" \
+              --search "merged:>=$SINCE base:master OR base:main" \
+              --json number,title,author,mergedAt,url \
+              --jq '.[] | "- [#\(.number)](\(.url)) \(.title) — @\(.author.login) (\(.mergedAt))"' >> README.md
+            echo "" >> README.md
+            
+            # Get PRs merged to next branch
+            echo "### Next Branch" >> README.md
+            gh pr list \
+              --repo "$repo" \
+              --state merged \
+              --search "merged:>=$SINCE base:next" \
               --json number,title,author,mergedAt,url \
               --jq '.[] | "- [#\(.number)](\(.url)) \(.title) — @\(.author.login) (\(.mergedAt))"' >> README.md
             echo "" >> README.md
