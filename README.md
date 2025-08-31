@@ -1,6 +1,7 @@
 # Merged PRs since 2025-08-13T00:00:00Z
 ## wso2/product-is
 ### Master/Main Branch
+- [#25502](https://github.com/wso2/product-is/pull/25502) Bump Dependencies #17345246190 — @jenkins-is-staging (2025-08-30T16:56:37Z)
 - [#25498](https://github.com/wso2/product-is/pull/25498) Bump Dependencies #17327283960 — @jenkins-is-staging (2025-08-29T17:02:40Z)
 - [#25481](https://github.com/wso2/product-is/pull/25481) [CI][skip ci] Action to Sync `main/master` PRs with `next` — @brionmario (2025-08-28T06:34:04Z)
 - [#25478](https://github.com/wso2/product-is/pull/25478) Bump Dependencies #17270626922 — @jenkins-is-staging (2025-08-28T02:42:12Z)
@@ -30,9 +31,10 @@
 - [#25385](https://github.com/wso2/product-is/pull/25385) Bump versions — @mpmadhavig (2025-08-22T12:57:16Z)
 - [#25383](https://github.com/wso2/product-is/pull/25383) Version bumps — @sadilchamishka (2025-08-22T10:36:22Z)
 - [#25372](https://github.com/wso2/product-is/pull/25372) Bump local email OTP authenticator version to 1.0.47 — @ImalshaD (2025-08-22T03:49:05Z)
-- [#25365](https://github.com/wso2/product-is/pull/25365) Enhancement for Disabling SOAP Services and Carbon Management Console by Default — @inthirakumaaran (2025-08-23T12:13:11Z)
 
 ### Next Branch
+- [#25503](https://github.com/wso2/product-is/pull/25503) [Next Branch] Bump Dependencies #17345271392 — @jenkins-is-staging (2025-08-30T16:56:10Z)
+- [#25501](https://github.com/wso2/product-is/pull/25501) Update Carbon Identity Framework version to 7.9.43 — @hwupathum (2025-08-30T12:52:57Z)
 - [#25499](https://github.com/wso2/product-is/pull/25499) [Next Branch] Bump Dependencies #17327334248 — @jenkins-is-staging (2025-08-29T17:03:00Z)
 - [#25489](https://github.com/wso2/product-is/pull/25489) [Next Branch] Bump Dependencies #17299927237 — @jenkins-is-staging (2025-08-28T17:39:03Z)
 - [#25479](https://github.com/wso2/product-is/pull/25479) Bump versions — @ashanthamara (2025-08-27T19:02:07Z)
@@ -61,12 +63,12 @@
 - [#25266](https://github.com/wso2/product-is/pull/25266) [Next Branch] Bump Dependencies #17060669940 — @jenkins-is-staging (2025-08-19T07:51:12Z)
 - [#25258](https://github.com/wso2/product-is/pull/25258) [Next Branch] Bump Dependencies #17047240436 — @jenkins-is-staging (2025-08-19T00:08:17Z)
 - [#25256](https://github.com/wso2/product-is/pull/25256) [Next Branch] Bump Dependencies #17044490467 — @jenkins-is-staging (2025-08-18T17:01:39Z)
-- [#25254](https://github.com/wso2/product-is/pull/25254) Bump identity workflow engine version — @sadilchamishka (2025-08-18T15:42:31Z)
-- [#25247](https://github.com/wso2/product-is/pull/25247) Bump webhook 112 — @indeewari (2025-08-18T13:01:42Z)
 
 ## wso2/identity-apps
 ### Master/Main Branch
+- [#8991](https://github.com/wso2/identity-apps/pull/8991) Add default static content to handle flow completion with view step — @ThaminduR (2025-08-30T05:46:06Z)
 - [#8984](https://github.com/wso2/identity-apps/pull/8984) Properly skip `Console` from `getRegistrationPortalUrl` — @brionmario (2025-08-29T07:53:49Z)
+- [#8981](https://github.com/wso2/identity-apps/pull/8981) [Release] [GitHub Action] [master] Update package versions — @wso2-jenkins-bot (2025-08-30T05:56:14Z)
 - [#8979](https://github.com/wso2/identity-apps/pull/8979) [CI][skip ci] Update workflow to sync PRs from master to next branch — @brionmario (2025-08-28T03:17:17Z)
 - [#8977](https://github.com/wso2/identity-apps/pull/8977) Fix formatting in README.md for PNPM installation instructions — @brionmario (2025-08-27T13:04:08Z)
 - [#8975](https://github.com/wso2/identity-apps/pull/8975) [CI] [skip ci] Update sync workflow to enhance PR synchronization process — @brionmario (2025-08-27T12:30:29Z)
@@ -94,10 +96,10 @@
 - [#8925](https://github.com/wso2/identity-apps/pull/8925) [CI] [skip ci] Simplify sync workflow by removing fork references and updating push commands — @brionmario (2025-08-25T10:02:53Z)
 - [#8923](https://github.com/wso2/identity-apps/pull/8923) [Release] [GitHub Action] [master] Update package versions — @wso2-jenkins-bot (2025-08-25T08:07:07Z)
 - [#8921](https://github.com/wso2/identity-apps/pull/8921) [CI] [skip ci] Update sync workflow for improved branch management — @brionmario (2025-08-25T06:29:31Z)
-- [#8918](https://github.com/wso2/identity-apps/pull/8918) Add Magic Link widget and execution step to flow builder — @KD23243 (2025-08-25T10:40:46Z)
-- [#8917](https://github.com/wso2/identity-apps/pull/8917) [CI] [skip ci] Update sync workflow for improved branch management — @brionmario (2025-08-25T05:07:07Z)
 
 ### Next Branch
+- [#8992](https://github.com/wso2/identity-apps/pull/8992) [Sync][master -> next][#8991]: Add default static content to handle flow completion with view step — @app/github-actions (2025-08-30T05:56:29Z)
+- [#8988](https://github.com/wso2/identity-apps/pull/8988) [Release] [GitHub Action] [next] Update package versions — @wso2-jenkins-bot (2025-08-30T06:05:02Z)
 - [#8987](https://github.com/wso2/identity-apps/pull/8987) [Sync][master -> next][#8984]: Properly skip `Console` from `getRegistrationPortalUrl` — @app/github-actions (2025-08-29T09:45:19Z)
 - [#8983](https://github.com/wso2/identity-apps/pull/8983) [Sync][master -> next][#8942]: Introduce pending state for approval tasks and fix UI alignment issue in workflow request filetering — @app/github-actions (2025-08-28T18:21:25Z)
 - [#8982](https://github.com/wso2/identity-apps/pull/8982) [Release] [GitHub Action] [next] Update package versions — @wso2-jenkins-bot (2025-08-28T18:46:50Z)
@@ -126,8 +128,6 @@
 - [#8903](https://github.com/wso2/identity-apps/pull/8903) [Release] [GitHub Action] [next] Update package versions — @wso2-jenkins-bot (2025-08-24T05:13:31Z)
 - [#8901](https://github.com/wso2/identity-apps/pull/8901) [Next] Fix approval requests with deleted users — @PasinduYeshan (2025-08-24T05:07:12Z)
 - [#8900](https://github.com/wso2/identity-apps/pull/8900) [Release] [GitHub Action] [next] Update package versions — @wso2-jenkins-bot (2025-08-23T14:01:55Z)
-- [#8899](https://github.com/wso2/identity-apps/pull/8899) [Next] Disable attribute profile config for object data type — @sadilchamishka (2025-08-23T13:39:08Z)
-- [#8896](https://github.com/wso2/identity-apps/pull/8896) [Release] [GitHub Action] [next] Update package versions — @wso2-jenkins-bot (2025-08-23T10:53:46Z)
 
 ## wso2/identity-api-server
 ### Master/Main Branch
@@ -190,6 +190,7 @@
 - [#7218](https://github.com/wso2/carbon-identity-framework/pull/7218) Add null check to validateOperationScopes method — @mpmadhavig (2025-08-22T03:56:03Z)
 
 ### Next Branch
+- [#7288](https://github.com/wso2/carbon-identity-framework/pull/7288) [NEXT] Enhance uniqueness check logic by incorporating user creation time — @hwupathum (2025-08-30T11:06:14Z)
 - [#7285](https://github.com/wso2/carbon-identity-framework/pull/7285) [Next]Auto login fix — @ImalshaD (2025-08-29T14:20:53Z)
 - [#7284](https://github.com/wso2/carbon-identity-framework/pull/7284) [Next] Improve inheritance for resources in the configuration store — @Yasasr1 (2025-08-29T03:56:54Z)
 - [#7274](https://github.com/wso2/carbon-identity-framework/pull/7274) Fixed webhook audit logs — @Sachin-Mamoru (2025-08-27T06:45:58Z)
@@ -219,7 +220,6 @@
 - [#7195](https://github.com/wso2/carbon-identity-framework/pull/7195) [Next] Add workflow association scopes for user creation — @PasinduYeshan (2025-08-19T16:51:45Z)
 - [#7194](https://github.com/wso2/carbon-identity-framework/pull/7194) [Next] Introduce MyAccountAuthorizedAPIListener to authorize approvals related APIs — @PasinduYeshan (2025-08-19T16:45:41Z)
 - [#7190](https://github.com/wso2/carbon-identity-framework/pull/7190) [Next] Add captcha configuration for local OTP authenticators — @ImalshaD (2025-08-19T12:22:01Z)
-- [#7187](https://github.com/wso2/carbon-identity-framework/pull/7187) [Next] Add method to get inherited resource by type and resource name. — @Yasasr1 (2025-08-20T04:14:49Z)
 
 ## wso2/identity-organization-management-core
 ### Master/Main Branch
