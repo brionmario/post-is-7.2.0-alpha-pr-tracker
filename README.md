@@ -368,6 +368,7 @@
 - [#40](https://github.com/wso2-extensions/identity-event-publishers/pull/40) [CI][skip ci] Action to Sync `main/master` PRs with `next` — @brionmario (2025-08-26T08:42:14Z)
 
 ### Next Branch
+- [#47](https://github.com/wso2-extensions/identity-event-publishers/pull/47) Update the retry mechanism in threads — @Sachin-Mamoru (2025-08-31T17:33:19Z)
 - [#45](https://github.com/wso2-extensions/identity-event-publishers/pull/45) [Sync Next] Add configurations for the publisher adapter configs — @Sachin-Mamoru (2025-08-26T07:26:36Z)
 - [#44](https://github.com/wso2-extensions/identity-event-publishers/pull/44) [Sync Next] Add diagnostic logs and retry mechanism — @Sachin-Mamoru (2025-08-26T05:10:20Z)
 - [#39](https://github.com/wso2-extensions/identity-event-publishers/pull/39) [IS 7.2.0 POST ALPHA][skip ci] Update `next` branch versions — @brionmario (2025-08-14T05:11:44Z)
