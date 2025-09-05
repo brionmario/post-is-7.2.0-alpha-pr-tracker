@@ -94,8 +94,8 @@
 - [#8964](https://github.com/wso2/identity-apps/pull/8964) [Release] [GitHub Action] [master] Update package versions — @wso2-jenkins-bot (2025-08-26T23:26:59Z)
 - [#8957](https://github.com/wso2/identity-apps/pull/8957) [bug-fix] Fix an issue with number input in My Account — @JayaShakthi97 (2025-08-27T05:31:19Z)
 - [#8956](https://github.com/wso2/identity-apps/pull/8956) Fix the padding issue in the additional properties tab. — @Malith-19 (2025-08-26T09:08:20Z)
+- [#8953](https://github.com/wso2/identity-apps/pull/8953) Provide revert UI to custom alternate login identifier page — @Yasasr1 (2025-09-04T03:49:33Z)
 - [#8952](https://github.com/wso2/identity-apps/pull/8952) [CI] [skip ci] Add PR merged workflow and remove obsolete branch deleter workflow — @brionmario (2025-08-26T10:24:13Z)
-- [#8948](https://github.com/wso2/identity-apps/pull/8948) Improve the validation UI — @DilshanSenarath (2025-08-26T02:36:31Z)
 
 ### Next Branch
 - [#9029](https://github.com/wso2/identity-apps/pull/9029) [next][Sync-#9022] Rename feature: features/common.ui.profile.v1 -> features/common.users.v1 — @JayaShakthi97 (2025-09-03T06:49:13Z)
@@ -111,6 +111,7 @@
 - [#9007](https://github.com/wso2/identity-apps/pull/9007) [Release] [GitHub Action] [next] Update package versions — @wso2-jenkins-bot (2025-09-02T04:45:43Z)
 - [#9006](https://github.com/wso2/identity-apps/pull/9006) [Sync][master -> next][#9000]: Fix the password generate button alignment in the add user form. — @app/github-actions (2025-09-01T11:49:29Z)
 - [#9004](https://github.com/wso2/identity-apps/pull/9004) [Sync][master -> next][#8995]: [bug-fix] Unable to remove passkey from the flow — @app/github-actions (2025-09-01T11:24:31Z)
+- [#9003](https://github.com/wso2/identity-apps/pull/9003) [Sync][master -> next][#8870]: Improvements to login and registration configuration UIs in sub-organizations — @app/github-actions (2025-09-04T03:42:26Z)
 - [#9001](https://github.com/wso2/identity-apps/pull/9001) [Sync][master -> next][#8997]: Fix unneccesary username validation in add user form. — @app/github-actions (2025-09-01T09:13:02Z)
 - [#8998](https://github.com/wso2/identity-apps/pull/8998) Hide outdated application banner in sub-orgs — @JeethJJ (2025-09-01T10:10:34Z)
 - [#8996](https://github.com/wso2/identity-apps/pull/8996) [Release] [GitHub Action] [next] Update package versions — @wso2-jenkins-bot (2025-09-01T11:40:08Z)
@@ -127,7 +128,6 @@
 - [#8968](https://github.com/wso2/identity-apps/pull/8968) [Release] [GitHub Action] [next] Update package versions — @wso2-jenkins-bot (2025-08-27T01:29:01Z)
 - [#8967](https://github.com/wso2/identity-apps/pull/8967) [Sync] Master -> Next PR #8956 — @Malith-19 (2025-08-26T23:54:00Z)
 - [#8954](https://github.com/wso2/identity-apps/pull/8954) Add User Survey Banner — @Lakshan-Banneheke (2025-08-28T12:19:44Z)
-- [#8951](https://github.com/wso2/identity-apps/pull/8951) [Next] App role creation doesn't indicate accepted for role creation even received 202 accepted — @NutharaNR (2025-08-26T04:34:19Z)
 
 ## wso2/identity-api-server
 ### Master/Main Branch
@@ -162,6 +162,7 @@
 
 ## wso2/carbon-identity-framework
 ### Master/Main Branch
+- [#7323](https://github.com/wso2/carbon-identity-framework/pull/7323) Resolve secret for active webhooks — @Sachin-Mamoru (2025-09-04T07:07:07Z)
 - [#7317](https://github.com/wso2/carbon-identity-framework/pull/7317) Change scim2 uniqueness violation conflict config name — @AfraHussaindeen (2025-09-03T09:02:32Z)
 - [#7315](https://github.com/wso2/carbon-identity-framework/pull/7315) Update instructions to check security issues — @sahandilshan (2025-09-03T08:34:54Z)
 - [#7313](https://github.com/wso2/carbon-identity-framework/pull/7313) Enhance unique claim management conflict response handling — @AfraHussaindeen (2025-09-03T02:31:50Z)
@@ -172,6 +173,7 @@
 - [#7299](https://github.com/wso2/carbon-identity-framework/pull/7299) Add all configs related to the unifying naming convention feature to infer.json — @HasiniSama (2025-09-02T03:41:40Z)
 - [#7298](https://github.com/wso2/carbon-identity-framework/pull/7298) Introduce default_role_api_version_for_ref config — @mpmadhavig (2025-09-02T08:05:11Z)
 - [#7297](https://github.com/wso2/carbon-identity-framework/pull/7297) Add new sharing API access control — @sahandilshan (2025-09-02T06:37:55Z)
+- [#7295](https://github.com/wso2/carbon-identity-framework/pull/7295) Add flow type to execution response — @ThaminduR (2025-09-04T04:35:55Z)
 - [#7291](https://github.com/wso2/carbon-identity-framework/pull/7291) Enhance uniqueness check logic by incorporating user creation time — @hwupathum (2025-09-02T05:50:35Z)
 - [#7289](https://github.com/wso2/carbon-identity-framework/pull/7289) Handle email OTP based verification pending scenario with separate error code — @sadilchamishka (2025-09-01T04:46:02Z)
 - [#7281](https://github.com/wso2/carbon-identity-framework/pull/7281) Provide Auto Login Capabilities through user assertions. — @ImalshaD (2025-08-29T05:05:09Z)
@@ -190,8 +192,6 @@
 - [#7253](https://github.com/wso2/carbon-identity-framework/pull/7253) Mask only the scope permission changes when scim v3 config is added — @mpmadhavig (2025-08-26T05:31:34Z)
 - [#7252](https://github.com/wso2/carbon-identity-framework/pull/7252) Add fix for authorise internal scopes when allowed scopes are configured — @piraveena (2025-09-02T04:12:28Z)
 - [#7251](https://github.com/wso2/carbon-identity-framework/pull/7251) Fix ask password OTP flow doesn't redirect to the orchestrated flow — @sadilchamishka (2025-09-02T08:06:32Z)
-- [#7248](https://github.com/wso2/carbon-identity-framework/pull/7248) Set shared app versions to BASE_APP_VERSION — @JeethJJ (2025-08-25T18:18:56Z)
-- [#7247](https://github.com/wso2/carbon-identity-framework/pull/7247) Improve logging in UniqueClaimUserOperationEventListener — @hwupathum (2025-08-25T11:05:12Z)
 
 ### Next Branch
 - [#7321](https://github.com/wso2/carbon-identity-framework/pull/7321) Revert "[NEXT] Add changes related to scim bulk api improvement " — @mpmadhavig (2025-09-03T09:30:54Z)
@@ -199,6 +199,7 @@
 - [#7318](https://github.com/wso2/carbon-identity-framework/pull/7318) [NEXT] Change scim2 uniqueness violation conflict config name — @AfraHussaindeen (2025-09-03T09:02:47Z)
 - [#7316](https://github.com/wso2/carbon-identity-framework/pull/7316) [Sync][master -> next][#7315]: Update instructions to check security issues — @app/github-actions (2025-09-03T13:44:29Z)
 - [#7307](https://github.com/wso2/carbon-identity-framework/pull/7307) [Sync][master -> next][#7251]: Fix ask password OTP flow doesn't redirect to the orchestrated flow — @app/github-actions (2025-09-02T08:18:57Z)
+- [#7305](https://github.com/wso2/carbon-identity-framework/pull/7305) [Sync][master -> next][#7297]: Add new sharing API access control — @app/github-actions (2025-09-04T14:54:38Z)
 - [#7304](https://github.com/wso2/carbon-identity-framework/pull/7304) [Sync][master -> next][#7291]: Enhance uniqueness check logic by incorporating user creation time — @app/github-actions (2025-09-02T05:55:06Z)
 - [#7296](https://github.com/wso2/carbon-identity-framework/pull/7296) Publisher test update — @Sachin-Mamoru (2025-09-01T09:29:41Z)
 - [#7293](https://github.com/wso2/carbon-identity-framework/pull/7293) Removed duplicate async impl of publisher — @Sachin-Mamoru (2025-09-01T08:12:41Z)
@@ -223,7 +224,6 @@
 - [#7241](https://github.com/wso2/carbon-identity-framework/pull/7241) [next] Store canonical values in separate rows — @sadilchamishka (2025-08-25T06:35:04Z)
 - [#7238](https://github.com/wso2/carbon-identity-framework/pull/7238) [NEXT] Add changes related to scim bulk api improvement  — @mpmadhavig (2025-09-03T05:55:30Z)
 - [#7234](https://github.com/wso2/carbon-identity-framework/pull/7234) [next] Handle workflow approval when self registration — @sadilchamishka (2025-08-23T10:41:20Z)
-- [#7233](https://github.com/wso2/carbon-identity-framework/pull/7233) [Sync][main -> next][#7219]: Introducing the token flows — @indeewari (2025-08-23T13:52:31Z)
 
 ## wso2/identity-organization-management-core
 ### Master/Main Branch
@@ -262,6 +262,7 @@
 
 ## wso2-extensions/identity-organization-management
 ### Master/Main Branch
+- [#575](https://github.com/wso2-extensions/identity-organization-management/pull/575) Extract isSharedUser to a util method — @Yasasr1 (2025-09-04T03:35:57Z)
 - [#573](https://github.com/wso2-extensions/identity-organization-management/pull/573) Set is app shared property — @sahandilshan (2025-09-02T07:01:57Z)
 - [#569](https://github.com/wso2-extensions/identity-organization-management/pull/569) Update instructions to check security issues — @sahandilshan (2025-09-01T08:41:29Z)
 - [#564](https://github.com/wso2-extensions/identity-organization-management/pull/564) Resolve sub org level discoverable app view issue in myaccount when org id and org handle are different — @AnuradhaSK (2025-08-26T05:45:32Z)
