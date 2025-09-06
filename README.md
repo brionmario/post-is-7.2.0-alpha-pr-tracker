@@ -334,6 +334,7 @@
 - [#2826](https://github.com/wso2-extensions/identity-inbound-auth-oauth/pull/2826) Bump org.apache.cxf:cxf-core from 3.5.10 to 3.5.11 — @app/dependabot (2025-08-21T05:14:00Z)
 
 ### Next Branch
+- [#2896](https://github.com/wso2-extensions/identity-inbound-auth-oauth/pull/2896) [NEXT] [Temp Fix] Fix Authorization Grant Cache Invalidation on User Claim Updates — @AfraHussaindeen (2025-09-05T15:28:38Z)
 - [#2892](https://github.com/wso2-extensions/identity-inbound-auth-oauth/pull/2892) [Sync][master -> next][#2882]: Provide inheritance and revert capability for impersonation configurations. — @app/github-actions (2025-09-02T01:23:44Z)
 - [#2890](https://github.com/wso2-extensions/identity-inbound-auth-oauth/pull/2890) [Sync][master -> next][#2889]: Extend Authorization Grant Cache Validity to Refresh Token Expiry — @app/github-actions (2025-09-01T10:03:51Z)
 - [#2878](https://github.com/wso2-extensions/identity-inbound-auth-oauth/pull/2878) [Next]Fix app role claim mismatches in idtoken, jwttoken and userinfo — @piraveena (2025-08-29T04:40:19Z)
