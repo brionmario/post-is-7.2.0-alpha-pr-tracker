@@ -33,6 +33,7 @@
 - [#25391](https://github.com/wso2/product-is/pull/25391) Bump versions — @sadilchamishka (2025-08-22T13:53:26Z)
 
 ### Next Branch
+- [#25542](https://github.com/wso2/product-is/pull/25542) [NEXT] Bump OAuth version — @AfraHussaindeen (2025-09-06T00:34:11Z)
 - [#25530](https://github.com/wso2/product-is/pull/25530) Bump the framework and SCIM2 versions — @AfraHussaindeen (2025-09-03T11:28:25Z)
 - [#25529](https://github.com/wso2/product-is/pull/25529) [NEXT] Bump the framework and SCIM2 versions — @AfraHussaindeen (2025-09-03T07:36:46Z)
 - [#25525](https://github.com/wso2/product-is/pull/25525) [Next Branch] Bump Dependencies #17407742992 — @jenkins-is-staging (2025-09-02T17:59:04Z)
@@ -62,7 +63,6 @@
 - [#25366](https://github.com/wso2/product-is/pull/25366) Bump framework — @ashanthamara (2025-08-21T17:10:09Z)
 - [#25362](https://github.com/wso2/product-is/pull/25362) [Next] Update integration tests with allowed headers and params — @ashanthamara (2025-08-21T14:49:02Z)
 - [#25311](https://github.com/wso2/product-is/pull/25311) [Next Branch] Bump Dependencies #17092247312 — @jenkins-is-staging (2025-08-20T10:00:31Z)
-- [#25302](https://github.com/wso2/product-is/pull/25302) Bump workflow engine version — @sadilchamishka (2025-08-20T06:35:41Z)
 
 ## wso2/identity-apps
 ### Master/Main Branch
@@ -282,6 +282,7 @@
 ### Master/Main Branch
 
 ### Next Branch
+- [#4377](https://github.com/wso2/carbon-kernel/pull/4377) [Next] Fix Agent throwing NullPointerException when creating a user — @KD23243 (2025-09-06T11:11:32Z)
 - [#4367](https://github.com/wso2/carbon-kernel/pull/4367) Prepare for next release — @mpmadhavig (2025-08-25T14:38:19Z)
 - [#4364](https://github.com/wso2/carbon-kernel/pull/4364) [NEXT] Introduce OperationScopeValidationContext to store operation scope related data — @mpmadhavig (2025-08-25T05:59:29Z)
 - [#4360](https://github.com/wso2/carbon-kernel/pull/4360) [Next] timestamp param support for sql builder — @sadilchamishka (2025-08-16T10:46:00Z)
