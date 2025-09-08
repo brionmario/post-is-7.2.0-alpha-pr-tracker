@@ -66,6 +66,7 @@
 
 ## wso2/identity-apps
 ### Master/Main Branch
+- [#9032](https://github.com/wso2/identity-apps/pull/9032) Stop loading overview tab before loading scopes — @mpmadhavig (2025-09-07T10:20:12Z)
 - [#9027](https://github.com/wso2/identity-apps/pull/9027) [Release] [GitHub Action] [master] Update package versions — @wso2-jenkins-bot (2025-09-03T05:42:19Z)
 - [#9024](https://github.com/wso2/identity-apps/pull/9024) [Release] [GitHub Action] [master] Update package versions — @wso2-jenkins-bot (2025-09-03T05:30:38Z)
 - [#9023](https://github.com/wso2/identity-apps/pull/9023) Allow custom username validation error message in self-registration page and add i18n to error page — @DonOmalVindula (2025-09-03T05:34:46Z)
@@ -92,10 +93,9 @@
 - [#8971](https://github.com/wso2/identity-apps/pull/8971) [CI][skip ci] Clean up workflow files by removing copyright notice and enhancing sync conditions — @brionmario (2025-08-27T08:14:55Z)
 - [#8969](https://github.com/wso2/identity-apps/pull/8969) [Release] [GitHub Action] [master] Update package versions — @wso2-jenkins-bot (2025-08-27T12:45:25Z)
 - [#8964](https://github.com/wso2/identity-apps/pull/8964) [Release] [GitHub Action] [master] Update package versions — @wso2-jenkins-bot (2025-08-26T23:26:59Z)
+- [#8962](https://github.com/wso2/identity-apps/pull/8962) Remove API resource registration logic due to new listener — @mpmadhavig (2025-09-07T10:21:55Z)
 - [#8957](https://github.com/wso2/identity-apps/pull/8957) [bug-fix] Fix an issue with number input in My Account — @JayaShakthi97 (2025-08-27T05:31:19Z)
 - [#8956](https://github.com/wso2/identity-apps/pull/8956) Fix the padding issue in the additional properties tab. — @Malith-19 (2025-08-26T09:08:20Z)
-- [#8953](https://github.com/wso2/identity-apps/pull/8953) Provide revert UI to custom alternate login identifier page — @Yasasr1 (2025-09-04T03:49:33Z)
-- [#8952](https://github.com/wso2/identity-apps/pull/8952) [CI] [skip ci] Add PR merged workflow and remove obsolete branch deleter workflow — @brionmario (2025-08-26T10:24:13Z)
 
 ### Next Branch
 - [#9029](https://github.com/wso2/identity-apps/pull/9029) [next][Sync-#9022] Rename feature: features/common.ui.profile.v1 -> features/common.users.v1 — @JayaShakthi97 (2025-09-03T06:49:13Z)
@@ -106,6 +106,7 @@
 - [#9018](https://github.com/wso2/identity-apps/pull/9018) [Sync][master -> next][#8993]: Handle email otp based verification pending scenario — @app/github-actions (2025-09-03T00:24:27Z)
 - [#9016](https://github.com/wso2/identity-apps/pull/9016) [Sync][master -> next][#8867]: Make nested organization search results editable — @app/github-actions (2025-09-02T06:24:47Z)
 - [#9015](https://github.com/wso2/identity-apps/pull/9015) [Release] [GitHub Action] [next] Update package versions — @wso2-jenkins-bot (2025-09-02T16:21:43Z)
+- [#9014](https://github.com/wso2/identity-apps/pull/9014) [next] Add seperate UI configs to enable/disable the organization display name or handle  — @HasiniSama (2025-09-07T04:51:47Z)
 - [#9012](https://github.com/wso2/identity-apps/pull/9012) [Sync][master -> next][#8986]: [bug-fix] Fix issues with multi valued fields in user profile — @app/github-actions (2025-09-02T05:42:38Z)
 - [#9009](https://github.com/wso2/identity-apps/pull/9009) [next] UI support to Root Organization Display Name Editability — @HasiniSama (2025-09-02T05:16:58Z)
 - [#9007](https://github.com/wso2/identity-apps/pull/9007) [Release] [GitHub Action] [next] Update package versions — @wso2-jenkins-bot (2025-09-02T04:45:43Z)
@@ -127,7 +128,6 @@
 - [#8970](https://github.com/wso2/identity-apps/pull/8970) [Sync][master -> next][#8957]: [bug-fix] Fix an issue with number input in My Account — @app/github-actions (2025-08-27T11:56:50Z)
 - [#8968](https://github.com/wso2/identity-apps/pull/8968) [Release] [GitHub Action] [next] Update package versions — @wso2-jenkins-bot (2025-08-27T01:29:01Z)
 - [#8967](https://github.com/wso2/identity-apps/pull/8967) [Sync] Master -> Next PR #8956 — @Malith-19 (2025-08-26T23:54:00Z)
-- [#8954](https://github.com/wso2/identity-apps/pull/8954) Add User Survey Banner — @Lakshan-Banneheke (2025-08-28T12:19:44Z)
 
 ## wso2/identity-api-server
 ### Master/Main Branch
@@ -227,6 +227,7 @@
 
 ## wso2/identity-organization-management-core
 ### Master/Main Branch
+- [#207](https://github.com/wso2/identity-organization-management-core/pull/207) Add system-level config for enabling Super org name in notification templates — @HasiniSama (2025-09-07T05:52:30Z)
 - [#204](https://github.com/wso2/identity-organization-management-core/pull/204) Improve error handling during inheritance enabled checks based on organization version. — @Yasasr1 (2025-08-28T08:55:39Z)
 - [#202](https://github.com/wso2/identity-organization-management-core/pull/202) Add version to authorized organizations response — @Yasasr1 (2025-08-21T10:02:47Z)
 - [#200](https://github.com/wso2/identity-organization-management-core/pull/200) [CI][skip ci] Action to Sync `main/master` PRs with `next` — @brionmario (2025-08-28T06:34:46Z)
