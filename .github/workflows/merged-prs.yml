@@ -60,14 +60,14 @@ jobs:
               --state merged \
               --search "merged:>=$SINCE base:master" \
               --json number,title,author,mergedAt,url \
-              --jq '.[] | "- [#\(.number)](\(.url)) \(.title) — @\(.author.login) (\(.mergedAt))"' >> README.md
+              --jq '.[] | select((.author.login=="brionmario" and (.title|test("skip ci";"i")))|not) | "- [#\(.number)](\(.url)) \(.title) — @\(.author.login) (\(.mergedAt))"' >> README.md
             # Query main branch
             gh pr list \
               --repo "$repo" \
               --state merged \
               --search "merged:>=$SINCE base:main" \
               --json number,title,author,mergedAt,url \
-              --jq '.[] | "- [#\(.number)](\(.url)) \(.title) — @\(.author.login) (\(.mergedAt))"' >> README.md
+              --jq '.[] | select((.author.login=="brionmario" and (.title|test("skip ci";"i")))|not) | "- [#\(.number)](\(.url)) \(.title) — @\(.author.login) (\(.mergedAt))"' >> README.md
             echo "" >> README.md
             
             # Get PRs merged to next branch
@@ -77,7 +77,7 @@ jobs:
               --state merged \
               --search "merged:>=$SINCE base:next" \
               --json number,title,author,mergedAt,url \
-              --jq '.[] | "- [#\(.number)](\(.url)) \(.title) — @\(.author.login) (\(.mergedAt))"' >> README.md
+              --jq '.[] | select((.author.login=="brionmario" and (.title|test("skip ci";"i")))|not) | "- [#\(.number)](\(.url)) \(.title) — @\(.author.login) (\(.mergedAt))"' >> README.md
             echo "" >> README.md
           done
 
