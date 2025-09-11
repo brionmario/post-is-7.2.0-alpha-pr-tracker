@@ -1,6 +1,9 @@
 # Merged PRs since 2025-08-13T00:00:00Z
 ## wso2/product-is
 ### Master/Main Branch
+- [#25595](https://github.com/wso2/product-is/pull/25595) Update pom.xml — @PasinduYeshan (2025-09-10T18:05:02Z)
+- [#25593](https://github.com/wso2/product-is/pull/25593) Bump Oauth version — @AfraHussaindeen (2025-09-10T15:00:59Z)
+- [#25591](https://github.com/wso2/product-is/pull/25591) Update Carbon Identity Framework and Organization Mgt versions — @AnuradhaSK (2025-09-10T14:23:24Z)
 - [#25585](https://github.com/wso2/product-is/pull/25585) Bump carbon identity framework version to 7.8.484 — @ImalshaD (2025-09-10T09:15:13Z)
 - [#25584](https://github.com/wso2/product-is/pull/25584) Bump Dependencies #17604533430 — @jenkins-is-staging (2025-09-10T08:06:37Z)
 - [#25577](https://github.com/wso2/product-is/pull/25577) Bump Dependencies #17590775449 — @jenkins-is-staging (2025-09-10T02:05:00Z)
@@ -27,11 +30,12 @@
 - [#25432](https://github.com/wso2/product-is/pull/25432) bump versions — @ThaminduR (2025-08-25T08:46:43Z)
 - [#25428](https://github.com/wso2/product-is/pull/25428) Formatting the testng file — @indeewari (2025-08-25T06:50:48Z)
 - [#25427](https://github.com/wso2/product-is/pull/25427) Bump farmework and console versions — @DilshanSenarath (2025-08-25T06:09:02Z)
-- [#25423](https://github.com/wso2/product-is/pull/25423) Update flow execution component model — @ThaminduR (2025-08-25T04:59:54Z)
-- [#25416](https://github.com/wso2/product-is/pull/25416) Bump Dependencies #17190249514 — @jenkins-is-staging (2025-08-24T17:02:26Z)
-- [#25413](https://github.com/wso2/product-is/pull/25413) Update console version — @PasinduYeshan (2025-08-24T12:28:53Z)
 
 ### Next Branch
+- [#25597](https://github.com/wso2/product-is/pull/25597) [Next Branch] Bump Dependencies #17618095469 — @jenkins-is-staging (2025-09-10T18:08:12Z)
+- [#25594](https://github.com/wso2/product-is/pull/25594) [NEXT] Bump OAuth version — @AfraHussaindeen (2025-09-10T15:00:55Z)
+- [#25592](https://github.com/wso2/product-is/pull/25592) Update Carbon Identity Framework and org management versions — @AnuradhaSK (2025-09-10T19:14:31Z)
+- [#25589](https://github.com/wso2/product-is/pull/25589) Bump versions — @PasinduYeshan (2025-09-10T13:51:36Z)
 - [#25576](https://github.com/wso2/product-is/pull/25576) [Next Branch] Bump Dependencies #17587005393 — @jenkins-is-staging (2025-09-09T17:17:52Z)
 - [#25574](https://github.com/wso2/product-is/pull/25574) Bump framework — @Sachin-Mamoru (2025-09-09T16:57:20Z)
 - [#25562](https://github.com/wso2/product-is/pull/25562) [Next Branch] Bump Dependencies #17555219480 — @jenkins-is-staging (2025-09-08T19:07:21Z)
@@ -58,13 +62,12 @@
 - [#25469](https://github.com/wso2/product-is/pull/25469) Update carbon identity framework and event publishers versions — @hwupathum (2025-08-26T18:04:33Z)
 - [#25466](https://github.com/wso2/product-is/pull/25466) [Next]Bump authenticator.local.auth.smsotp.version to 1.0.35 — @ImalshaD (2025-08-26T11:48:37Z)
 - [#25458](https://github.com/wso2/product-is/pull/25458) Temporary fix tests — @hwupathum (2025-08-26T08:15:51Z)
-- [#25456](https://github.com/wso2/product-is/pull/25456) Bump authenticator.auth.otp.commons.version to 1.0.17 and identity.apps.core to 3.2.11 — @ImalshaD (2025-08-26T07:10:00Z)
-- [#25451](https://github.com/wso2/product-is/pull/25451) Bump scim2 351 — @indeewari (2025-08-26T04:50:09Z)
-- [#25444](https://github.com/wso2/product-is/pull/25444) Update Carbon Identity Framework version to 7.9.31 — @hwupathum (2025-08-25T12:56:07Z)
-- [#25443](https://github.com/wso2/product-is/pull/25443) Bump identity governance version to 1.12.5 — @ImalshaD (2025-08-25T13:04:51Z)
 
 ## wso2/identity-apps
 ### Master/Main Branch
+- [#9085](https://github.com/wso2/identity-apps/pull/9085) [Release] [GitHub Action] [master] Update package versions — @wso2-jenkins-bot (2025-09-10T18:21:17Z)
+- [#9080](https://github.com/wso2/identity-apps/pull/9080) [bug-fix] Fix security section crashing upon questionSet updates. — @NutharaNR (2025-09-10T18:27:31Z)
+- [#9076](https://github.com/wso2/identity-apps/pull/9076) [Release] [GitHub Action] [master] Update package versions — @wso2-jenkins-bot (2025-09-10T15:51:55Z)
 - [#9072](https://github.com/wso2/identity-apps/pull/9072) [bug-fix] Fix issue with empty field in My Account user profile — @JayaShakthi97 (2025-09-10T08:42:13Z)
 - [#9069](https://github.com/wso2/identity-apps/pull/9069) [Release] [GitHub Action] [master] Update package versions — @wso2-jenkins-bot (2025-09-10T09:09:35Z)
 - [#9062](https://github.com/wso2/identity-apps/pull/9062) [Release] [GitHub Action] [master] Update package versions — @wso2-jenkins-bot (2025-09-10T04:35:42Z)
@@ -77,6 +80,7 @@
 - [#9052](https://github.com/wso2/identity-apps/pull/9052) [bug-fix] Fix attribute mapping issues in Add User wizard — @JayaShakthi97 (2025-09-10T05:20:56Z)
 - [#9050](https://github.com/wso2/identity-apps/pull/9050) [Release] [GitHub Action] [master] Update package versions — @wso2-jenkins-bot (2025-09-09T08:13:09Z)
 - [#9046](https://github.com/wso2/identity-apps/pull/9046) Clarify Attribute Configurations Scope in Admin Console UI — @BimsaraBodaragama (2025-09-09T13:42:30Z)
+- [#9044](https://github.com/wso2/identity-apps/pull/9044) Provide date and epoch data type support — @sadilchamishka (2025-09-10T18:12:00Z)
 - [#9042](https://github.com/wso2/identity-apps/pull/9042) [bug-fix] Deleting custom claim dialect is not consistent — @NutharaNR (2025-09-08T14:59:02Z)
 - [#9041](https://github.com/wso2/identity-apps/pull/9041) Display regex values added via API in app and profile fixes — @savindi7 (2025-09-09T05:16:50Z)
 - [#9039](https://github.com/wso2/identity-apps/pull/9039) [Release] [GitHub Action] [master] Update package versions — @wso2-jenkins-bot (2025-09-08T12:54:53Z)
@@ -91,14 +95,15 @@
 - [#9020](https://github.com/wso2/identity-apps/pull/9020) Fix Premium label issue on the conditional auth panel — @NipuniBhagya (2025-09-03T07:39:36Z)
 - [#9011](https://github.com/wso2/identity-apps/pull/9011) Add seperate UI configs to enable/disable the organization display name or handle — @HasiniSama (2025-09-02T05:15:32Z)
 - [#9010](https://github.com/wso2/identity-apps/pull/9010) [Release] [GitHub Action] [master] Update package versions — @wso2-jenkins-bot (2025-09-02T16:07:39Z)
-- [#9008](https://github.com/wso2/identity-apps/pull/9008) Remove usage v2 roles api based on config — @mpmadhavig (2025-09-02T11:15:28Z)
-- [#9005](https://github.com/wso2/identity-apps/pull/9005) [Release] [GitHub Action] [master] Update package versions — @wso2-jenkins-bot (2025-09-01T11:17:45Z)
-- [#9002](https://github.com/wso2/identity-apps/pull/9002) [Release] [GitHub Action] [master] Update package versions — @wso2-jenkins-bot (2025-09-01T09:59:37Z)
-- [#9000](https://github.com/wso2/identity-apps/pull/9000) Fix the password generate button alignment in the add user form. — @Malith-19 (2025-09-01T11:04:20Z)
 
 ### Next Branch
+- [#9086](https://github.com/wso2/identity-apps/pull/9086) [Sync][master -> next][#9080]: [bug-fix] Fix security section crashing upon questionSet updates. — @app/github-actions (2025-09-10T18:45:13Z)
+- [#9084](https://github.com/wso2/identity-apps/pull/9084) [Sync][master -> next][#9044]: Provide date and epoch data type support — @app/github-actions (2025-09-10T18:20:45Z)
+- [#9083](https://github.com/wso2/identity-apps/pull/9083) [Sync][master -> next][#9060]: Add support to reflect display name and display order of basic details — @app/github-actions (2025-09-10T15:53:42Z)
+- [#9078](https://github.com/wso2/identity-apps/pull/9078) [Sync][master -> next][#9072]: [bug-fix] Fix issue with empty field in My Account user profile — @app/github-actions (2025-09-10T15:52:27Z)
 - [#9073](https://github.com/wso2/identity-apps/pull/9073) [Release] [GitHub Action] [next] Update package versions — @wso2-jenkins-bot (2025-09-10T08:02:55Z)
 - [#9071](https://github.com/wso2/identity-apps/pull/9071) [Sync][master -> next][#9052]: [bug-fix] Fix attribute mapping issues in Add User wizard — @app/github-actions (2025-09-10T06:29:32Z)
+- [#9070](https://github.com/wso2/identity-apps/pull/9070) [Sync][master -> next][#8966]: Honor claim input formats in complete your profile page — @app/github-actions (2025-09-10T15:24:44Z)
 - [#9067](https://github.com/wso2/identity-apps/pull/9067) [Sync][master -> next][#9055]: Introduce SELF_REGISTER_USER operation type for workflow — @app/github-actions (2025-09-10T04:30:01Z)
 - [#9064](https://github.com/wso2/identity-apps/pull/9064) [Sync][master -> next][#8989]: Fix URL hashes/params being lost during session refresh (OIDC Session Management) — @app/github-actions (2025-09-10T08:17:59Z)
 - [#9061](https://github.com/wso2/identity-apps/pull/9061) [Sync][master -> next][#9054]: Fix JSON deserialisation error during self-registration username validation — @app/github-actions (2025-09-10T07:30:32Z)
@@ -122,11 +127,6 @@
 - [#9016](https://github.com/wso2/identity-apps/pull/9016) [Sync][master -> next][#8867]: Make nested organization search results editable — @app/github-actions (2025-09-02T06:24:47Z)
 - [#9015](https://github.com/wso2/identity-apps/pull/9015) [Release] [GitHub Action] [next] Update package versions — @wso2-jenkins-bot (2025-09-02T16:21:43Z)
 - [#9014](https://github.com/wso2/identity-apps/pull/9014) [next] Add seperate UI configs to enable/disable the organization display name or handle  — @HasiniSama (2025-09-07T04:51:47Z)
-- [#9012](https://github.com/wso2/identity-apps/pull/9012) [Sync][master -> next][#8986]: [bug-fix] Fix issues with multi valued fields in user profile — @app/github-actions (2025-09-02T05:42:38Z)
-- [#9009](https://github.com/wso2/identity-apps/pull/9009) [next] UI support to Root Organization Display Name Editability — @HasiniSama (2025-09-02T05:16:58Z)
-- [#9007](https://github.com/wso2/identity-apps/pull/9007) [Release] [GitHub Action] [next] Update package versions — @wso2-jenkins-bot (2025-09-02T04:45:43Z)
-- [#9006](https://github.com/wso2/identity-apps/pull/9006) [Sync][master -> next][#9000]: Fix the password generate button alignment in the add user form. — @app/github-actions (2025-09-01T11:49:29Z)
-- [#9004](https://github.com/wso2/identity-apps/pull/9004) [Sync][master -> next][#8995]: [bug-fix] Unable to remove passkey from the flow — @app/github-actions (2025-09-01T11:24:31Z)
 
 ## wso2/identity-api-server
 ### Master/Main Branch
@@ -143,7 +143,7 @@
 - [#965](https://github.com/wso2/identity-api-server/pull/965) [ bug-fix ] Fix /api/server/v1/configs/schemas/ API not returning custom SCIM schemas — @NutharaNR (2025-08-21T04:30:20Z)
 
 ### Next Branch
-- [#991](https://github.com/wso2/identity-api-server/pull/991) Add SELF_REGISTER_USER operation type — @PasinduYeshan (2025-09-10T04:40:59Z)
+- [#991](https://github.com/wso2/identity-api-server/pull/991) [Next] Add SELF_REGISTER_USER operation type — @PasinduYeshan (2025-09-10T04:40:59Z)
 - [#989](https://github.com/wso2/identity-api-server/pull/989) [Sync][master -> next][#987]: Provide the date and epoch data type support — @app/github-actions (2025-09-09T17:31:40Z)
 - [#984](https://github.com/wso2/identity-api-server/pull/984) [Sync][master -> next][#979]: [bug-fix] Permission revoked approver can still perform workflow approval tasks — @app/github-actions (2025-09-03T01:25:44Z)
 - [#981](https://github.com/wso2/identity-api-server/pull/981) [Sync][master -> next][#977]: Add revert API for impersonation configurations. — @app/github-actions (2025-09-03T04:58:34Z)
@@ -194,6 +194,10 @@
 - [#7280](https://github.com/wso2/carbon-identity-framework/pull/7280) Remove ai log agent pipeline yamls — @rajithacharith (2025-08-28T08:51:53Z)
 
 ### Next Branch
+- [#7373](https://github.com/wso2/carbon-identity-framework/pull/7373) [Sync][master -> next][#7365]: Avoid calling shared role to main role id stored table for root org role loading — @app/github-actions (2025-09-10T14:26:21Z)
+- [#7372](https://github.com/wso2/carbon-identity-framework/pull/7372) [Sync][master -> next][#7354]:  Prevent duplicate associations for the same workflow, event, and condition — @app/github-actions (2025-09-10T14:02:46Z)
+- [#7370](https://github.com/wso2/carbon-identity-framework/pull/7370) [Sync][master -> next][#7362]: Fix a deadlock on shared role creation — @app/github-actions (2025-09-10T12:22:58Z)
+- [#7361](https://github.com/wso2/carbon-identity-framework/pull/7361) [Sync][master -> next][#7360]: Add component prefix to the error message — @app/github-actions (2025-09-10T16:14:05Z)
 - [#7359](https://github.com/wso2/carbon-identity-framework/pull/7359) [Sync][master -> next][#7346]: Update the claim-config.xml file according to the new categorization of data types of date_time — @app/github-actions (2025-09-09T17:32:32Z)
 - [#7355](https://github.com/wso2/carbon-identity-framework/pull/7355) [Sync][master -> next][#7319]: [bug-fix] Confusion in defining a regex for multi-value attributes — @app/github-actions (2025-09-09T17:39:30Z)
 - [#7352](https://github.com/wso2/carbon-identity-framework/pull/7352) [Sync][master -> next][#7276]: Introduce ClaimRetrievalClient to fetch local claims in authentication webapp — @app/github-actions (2025-09-10T04:38:57Z)
@@ -220,10 +224,6 @@
 - [#7292](https://github.com/wso2/carbon-identity-framework/pull/7292) [Sync][master -> next][#7289]: Handle email OTP based verification pending scenario with separate error code — @app/github-actions (2025-09-01T11:56:11Z)
 - [#7290](https://github.com/wso2/carbon-identity-framework/pull/7290) [NEXT] Enhance unique claim management conflict response handling — @AfraHussaindeen (2025-09-03T02:31:56Z)
 - [#7288](https://github.com/wso2/carbon-identity-framework/pull/7288) [NEXT] Enhance uniqueness check logic by incorporating user creation time — @hwupathum (2025-08-30T11:06:14Z)
-- [#7285](https://github.com/wso2/carbon-identity-framework/pull/7285) [Next]Auto login fix — @ImalshaD (2025-08-29T14:20:53Z)
-- [#7284](https://github.com/wso2/carbon-identity-framework/pull/7284) [Next] Improve inheritance for resources in the configuration store — @Yasasr1 (2025-08-29T03:56:54Z)
-- [#7283](https://github.com/wso2/carbon-identity-framework/pull/7283) [Sync][master -> next][#7280]: Remove ai log agent pipeline yamls — @app/github-actions (2025-09-01T04:37:54Z)
-- [#7278](https://github.com/wso2/carbon-identity-framework/pull/7278) [Sync][main -> next][#7271]: Increase CHAR length to support boolean type in Oracle 23 in IDN_RULE table — @app/github-actions (2025-09-02T06:01:36Z)
 
 ## wso2/identity-organization-management-core
 ### Master/Main Branch
@@ -237,6 +237,7 @@
 
 ## wso2-extensions/identity-governance
 ### Master/Main Branch
+- [#1042](https://github.com/wso2-extensions/identity-governance/pull/1042) [bug-fix] When retrieving the user profile JSON for a user in My Account, the username attribute is missing — @NutharaNR (2025-09-10T18:28:30Z)
 - [#1039](https://github.com/wso2-extensions/identity-governance/pull/1039) Import org.wso2.carbon.identity.workflow.mgt — @PasinduYeshan (2025-09-10T10:27:57Z)
 - [#1036](https://github.com/wso2-extensions/identity-governance/pull/1036) Handle pending workflow approvals during new user self-registration flow — @PasinduYeshan (2025-09-10T10:12:06Z)
 - [#1033](https://github.com/wso2-extensions/identity-governance/pull/1033) Handle email OTP based verification pending scenario with separate error code — @sadilchamishka (2025-09-03T08:34:13Z)
@@ -250,6 +251,7 @@
 - [#1011](https://github.com/wso2-extensions/identity-governance/pull/1011) Fix incorrect error response for Pre Update Password Action failures during self-registration — @Lashen1227 (2025-08-13T14:09:01Z)
 
 ### Next Branch
+- [#1043](https://github.com/wso2-extensions/identity-governance/pull/1043) [Sync][master -> next][#1042]: [bug-fix] When retrieving the user profile JSON for a user in My Account, the username attribute is missing — @app/github-actions (2025-09-10T18:47:34Z)
 - [#1041](https://github.com/wso2-extensions/identity-governance/pull/1041) [Sync][master -> next][#1039]: Import org.wso2.carbon.identity.workflow.mgt — @app/github-actions (2025-09-10T10:59:31Z)
 - [#1038](https://github.com/wso2-extensions/identity-governance/pull/1038) [Sync][master -> next][#1036]: Handle pending workflow approvals during new user self-registration flow — @app/github-actions (2025-09-10T10:59:14Z)
 - [#1035](https://github.com/wso2-extensions/identity-governance/pull/1035) [next] Handle email OTP based verification pending scenario — @sadilchamishka (2025-09-03T09:05:36Z)
@@ -341,6 +343,7 @@
 - [#2826](https://github.com/wso2-extensions/identity-inbound-auth-oauth/pull/2826) Bump org.apache.cxf:cxf-core from 3.5.10 to 3.5.11 — @app/dependabot (2025-08-21T05:14:00Z)
 
 ### Next Branch
+- [#2904](https://github.com/wso2-extensions/identity-inbound-auth-oauth/pull/2904) [Sync][master -> next][#2901]: Fix issue with stale user claims being returned on token refresh after access token expiry — @app/github-actions (2025-09-10T13:50:33Z)
 - [#2899](https://github.com/wso2-extensions/identity-inbound-auth-oauth/pull/2899) Add a diagnostic log to check mismatched callback uris when literal characters are enforced — @ashanthamara (2025-09-08T04:24:03Z)
 - [#2896](https://github.com/wso2-extensions/identity-inbound-auth-oauth/pull/2896) [NEXT] [Temp Fix] Fix Authorization Grant Cache Invalidation on User Claim Updates — @AfraHussaindeen (2025-09-05T15:28:38Z)
 - [#2892](https://github.com/wso2-extensions/identity-inbound-auth-oauth/pull/2892) [Sync][master -> next][#2882]: Provide inheritance and revert capability for impersonation configurations. — @app/github-actions (2025-09-02T01:23:44Z)
